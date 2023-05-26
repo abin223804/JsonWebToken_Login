@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>User Registration</h2>
+    <form method="post" action="/signup">
+      <div class="form-group">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="first_name" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Last Name:</label>
+        <input type="text" id="name" name="last_name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <style>
+    body {
+  background-image: url('https://wallpaperaccess.com/full/733911.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 400px;
+  margin: 50px auto;
+
+  padding: 95px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+  </style>
+</body>
+</html>
