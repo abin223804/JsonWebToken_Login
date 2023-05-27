@@ -1,7 +1,6 @@
 {
   "name": "nodeprojects",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -18,5 +17,15 @@
     "mongoose": "^7.2.1",
     "nodemon": "^2.0.22",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abin223804/jwtTokenLogin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abin223804/jwtTokenLogin/issues"
+  },
+  "homepage": "https://github.com/abin223804/jwtTokenLogin#readme",
+  "description": ""
 }
